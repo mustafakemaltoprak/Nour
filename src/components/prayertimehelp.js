@@ -46,7 +46,7 @@ export default function Prayertimehelp() {
                 Start with testing out our prayer time calculator
               </h2>
               <p class="mb-9 text-gray-900 text-base">
-                We use highly accurate prayer time calculation, do figure out
+                We use highly accurate prayer time calculation, to figure out
                 what your local prayer time is. We include multiple sources of
                 information and give you full control in choosing which source
                 you want to follow.
