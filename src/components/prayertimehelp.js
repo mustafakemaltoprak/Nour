@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Prayertimehelp() {
+  const navigate = useNavigate();
   return (
     <section class="py-36 overflow-hidden">
       <div class="container mx-auto px-4">
@@ -18,9 +20,9 @@ export default function Prayertimehelp() {
             <div class="w-auto p-6">
               <a
                 class="font-heading font-semibold text-lg text-gray-900 hover:text-gray-800"
-                href="#"
+                href="prayertime"
               >
-                <p class="mb-2 px-7">Prayer Time Calculator</p>
+                <p class="mb-2 px-7">Prayer Times Calculator</p>
                 <div class="h-0.5 bg-gray-200"></div>
               </a>
             </div>
@@ -53,13 +55,13 @@ export default function Prayertimehelp() {
               </p>
               <div class="flex flex-wrap -m-2">
                 <div class="w-full lg:w-auto p-2">
-                  <button class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md">
-                    Prayer Time
-                  </button>
-                </div>
-                <div class="w-full lg:w-auto p-2">
-                  <button class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-gray-900 bg-white hover:bg-gray-50 border border-gray-300 rounded-md">
-                    Learn More
+                  <button
+                    onClick={() => {
+                      navigate('/prayertime');
+                    }}
+                    class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md"
+                  >
+                    Prayer Times
                   </button>
                 </div>
               </div>

@@ -15,7 +15,7 @@ export default function header() {
               <div class="w-auto hidden lg:block">
                 <ul class="flex items-center mr-10">
                   <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
-                    <a href="#">Prayer Times</a>
+                    <a href="prayertime">Prayer Times</a>
                   </li>
                   <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
                     <a href="#">About Us</a>

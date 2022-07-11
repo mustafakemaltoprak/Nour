@@ -19,3 +19,19 @@ code {
 .navbar-icon {
   height: 4vw;
 }
+
+#section-prayer {
+  height: 90vh;
+}
+
+#prayertimepage-div {
+  padding-top: 0;
+}
+
+#textdiv {
+  margin-top: 80px;
+}
+
+#textdiv-2 {
+  margin-top: 35px;
+}
