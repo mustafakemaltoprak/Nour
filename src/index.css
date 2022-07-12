@@ -38,6 +38,7 @@ code {
 #textdiv-2 {
   margin-top: 35px;
 }
+
 @media (max-width: 700px) {
   #gradient-image {
     display: none;
@@ -52,4 +53,8 @@ code {
   height: 100vh;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+img {
+  pointer-events: none;
 }

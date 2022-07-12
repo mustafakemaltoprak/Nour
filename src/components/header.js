@@ -177,7 +177,7 @@ export default function header() {
           </div>
         </div>
       </div>
-      <img class="absolute bottom-0 left-0" src="/gradient.png" />
+      <img class="absolute bottom-0 left-0" src="/radial2.svg" />
     </section>
   );
 }
