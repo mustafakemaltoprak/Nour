@@ -17,15 +17,18 @@ code {
 }
 
 .navbar-icon {
-  height: 4vw;
+  height: 50px;
 }
 
 #section-prayer {
-  height: 90vh;
+  height: 100%;
+  overflow: auto;
 }
 
 #prayertimepage-div {
   padding-top: 0;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 #textdiv {
@@ -34,4 +37,7 @@ code {
 
 #textdiv-2 {
   margin-top: 35px;
+}
+
+#gradient-image {
 }

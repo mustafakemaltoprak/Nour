@@ -139,7 +139,11 @@ export default function Prayertimepage() {
             </div>
           )}
         </section>
-        <img class="absolute bottom-0 left-0" src="/gradient.png" />
+        <img
+          class="absolute bottom-0 left-0"
+          src="/gradient.png"
+          id="gradient-image"
+        />
       </section>
     </>
   );
