@@ -8,4 +8,5 @@ Nour is your helper in everything Islam. It will help you keep track of your pra
 
 ## Get started
 
-// still work in progress
+// Still work in progress<br><br>
+Click on [this](https://nourislam.netlify.app/) to start the website.

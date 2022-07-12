@@ -84,7 +84,7 @@ export default function Prayertimepage() {
                         <input
                           class="w-full px-6 py-4 placeholder-gray-500 text-base text-gray-500 border-2  outline-none rounded-lg"
                           type="text"
-                          placeholder="Put in your current city"
+                          placeholder="Enter your current city"
                           ref={inputValue}
                         />
                       </div>
