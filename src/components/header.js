@@ -18,13 +18,7 @@ export default function header() {
                     <a href="prayertime">Prayer Times</a>
                   </li>
                   <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
-                    <a href="#">About Us</a>
-                  </li>
-                  <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
-                    <a href="#">Resources</a>
-                  </li>
-                  <li class="font-heading text-gray-900 hover:text-gray-700 text-lg">
-                    <a href="#">Pricing</a>
+                    <a href="/team">Our Team</a>
                   </li>
                 </ul>
               </div>
@@ -34,46 +28,9 @@ export default function header() {
             <div class="flex flex-wrap items-center">
               <div class="w-auto hidden lg:block">
                 <div class="flex flex-wrap">
-                  <div class="w-auto">
-                    <button class="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10">
-                      Login
-                    </button>
-                  </div>
-                  <div class="w-auto">
-                    <button class="group relative font-heading block py-2 px-5 text-lg text-gray-900 border-2 border-gray-900 overflow-hidden rounded-10">
-                      <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gray-900 transition ease-in-out duration-500"></div>
-                      <p class="relative z-10 group-hover:text-white">
-                        Try for free
-                      </p>
-                    </button>
-                  </div>
+                  <div class="w-auto"></div>
+                  <div class="w-auto"></div>
                 </div>
-              </div>
-              <div class="w-auto lg:hidden">
-                <a href="#">
-                  <svg
-                    class="navbar-burger text-gray-800"
-                    width="51"
-                    height="51"
-                    viewBox="0 0 56 56"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      width="56"
-                      height="56"
-                      rx="28"
-                      fill="currentColor"
-                    ></rect>
-                    <path
-                      d="M37 32H19M37 24H19"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import Navbar from '../components/navbar';
 
 export default function Prayertimepage() {
@@ -6,6 +6,10 @@ export default function Prayertimepage() {
   const [toggled, setToggled] = useState(false);
   const [prayerTimes, setPrayerTimes] = useState(null);
   const [spinner, setSpinner] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

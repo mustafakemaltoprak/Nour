@@ -43,3 +43,13 @@ code {
     display: none;
   }
 }
+
+#error-pic {
+  height: 25vw;
+}
+
+#error-section {
+  height: 100vh;
+  padding-top: 0;
+  padding-bottom: 0;
+}
