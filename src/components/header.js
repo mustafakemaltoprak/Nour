@@ -29,14 +29,20 @@ export default function header() {
               <div class="w-auto hidden lg:block">
                 <div class="flex flex-wrap">
                   <div class="w-auto">
-                    <button class="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10">
-                      <a href="/contact">Contact Us</a>
-                    </button>
+                    <a
+                      class="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10"
+                      href="/contact"
+                    >
+                      Contact Us
+                    </a>
                   </div>
                   <div class="w-auto">
-                    <button class="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10">
-                      <a href="/team">Our Team</a>
-                    </button>
+                    <a
+                      href="/team"
+                      class="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10"
+                    >
+                      Our Team
+                    </a>
                   </div>
                 </div>
               </div>
@@ -107,7 +113,7 @@ export default function header() {
               </h1>
               <p class="mb-10 text-gray-600 text-xl">
                 We help you remember your prayer times, give access to free
-                education on Islam &amp; offer fundraisers for our community
+                education on Islam &amp; raise money for our community
                 worldwide.
               </p>
               <div class="flex flex-wrap -m-2.5 mb-20">
