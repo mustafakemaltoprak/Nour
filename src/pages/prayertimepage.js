@@ -31,39 +31,24 @@ export default function Prayertimepage() {
                   </div>
                   <div class="w-full md:w-1/2 p-11" id="textdiv-2">
                     <div>
-                      {Object.entries(prayerTimes).map((e, i) => {
-                        if (i === 0) {
-                          return (
-                            <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
-                              Fajr {e[1]}
-                            </h4>
-                          );
-                        } else if (i === 1) {
-                          return (
-                            <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
-                              Dhuhr {e[1]}
-                            </h4>
-                          );
-                        } else if (i === 2) {
-                          return (
-                            <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
-                              Asr {e[1]}
-                            </h4>
-                          );
-                        } else if (i === 3) {
-                          return (
-                            <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
-                              Maghrib {e[1]}
-                            </h4>
-                          );
-                        } else if (i === 4) {
-                          return (
-                            <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
-                              Isha'a {e[1]}
-                            </h4>
-                          );
-                        }
-                      })}
+                      <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
+                        Fajr {prayerTimes.Fajr}
+                      </h4>
+                      <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
+                        Sunrise {prayerTimes.Sunrise}
+                      </h4>
+                      <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
+                        Dhuhr {prayerTimes.Dhuhr}
+                      </h4>
+                      <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
+                        Asr {prayerTimes.Asr}
+                      </h4>
+                      <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
+                        Maghrib {prayerTimes.Maghrib}
+                      </h4>
+                      <h4 class="mb-6 font-heading font-bold text-5xl text-gray-900">
+                        Isha'a {prayerTimes[Object.keys(prayerTimes)[5]]}
+                      </h4>
                     </div>
                     <button
                       onClick={() => {
@@ -138,6 +123,7 @@ export default function Prayertimepage() {
                               let result = await data.json();
                               setPrayerTimes(result.today);
                               setToggled(!toggled);
+                              console.log(prayerTimes);
                             }}
                             class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md"
                           >
