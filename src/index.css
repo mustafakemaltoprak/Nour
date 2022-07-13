@@ -90,6 +90,18 @@ code {
   margin-bottom: 44px;
 }
 
+.contact-section {
+  height: 100vh;
+}
+
+.contact-image {
+  flex-direction: row-reverse;
+}
+
+.back-home-button {
+  margin-top: 25px;
+}
+
 img {
   pointer-events: none;
 }

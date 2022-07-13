@@ -20,9 +20,6 @@ export default function header() {
                   <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
                     <a href="/hadith">Hadith of The Day</a>
                   </li>
-                  <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
-                    <a href="/team">Our Team</a>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -31,8 +28,16 @@ export default function header() {
             <div class="flex flex-wrap items-center">
               <div class="w-auto hidden lg:block">
                 <div class="flex flex-wrap">
-                  <div class="w-auto"></div>
-                  <div class="w-auto"></div>
+                  <div class="w-auto">
+                    <button class="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10">
+                      <a href="/contact">Contact Us</a>
+                    </button>
+                  </div>
+                  <div class="w-auto">
+                    <button class="font-heading block py-2 px-5 mr-5 text-lg text-gray-900 rounded-10">
+                      <a href="/team">Our Team</a>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
