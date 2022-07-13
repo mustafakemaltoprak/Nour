@@ -60,7 +60,7 @@ export default function ShortServiceDescription() {
               <div class="w-full md:w-1/2 p-11">
                 <img class="mx-auto" src="/man.png" alt="" />
               </div>
-              <div class="w-full md:w-1/2 p-11">
+              <div class="w-full md:w-1/2 p-11 father">
                 <h2
                   class="mb-6 font-heading font-bold text-5xl text-gray-900"
                   contenteditable="false"
@@ -68,10 +68,12 @@ export default function ShortServiceDescription() {
                   Prayer Time Calculator
                 </h2>
                 <p class="mb-9 text-gray-900 text-base">
-                  We use highly accurate prayer time calculation, to figure out
-                  what your local prayer time is. We include multiple sources of
-                  information and give you full control in choosing which source
-                  you want to follow.
+                  We use highly accurate calculations, to figure out your local
+                  prayer time.
+                  <br></br>
+                  <br></br>
+                  We also include multiple sources of information and give you
+                  full control in choosing which source you want to follow.
                 </p>
                 <div class="flex flex-wrap -m-2">
                   <div class="w-full lg:w-auto p-2">
@@ -79,7 +81,7 @@ export default function ShortServiceDescription() {
                       onClick={() => {
                         navigate('/prayertime');
                       }}
-                      class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md"
+                      class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md service-button"
                     >
                       Prayer Times
                     </button>
@@ -96,7 +98,7 @@ export default function ShortServiceDescription() {
                   alt=""
                 />
               </div>
-              <div class="w-full md:w-1/2 p-11">
+              <div class="w-full md:w-1/2 p-11 father">
                 <h2
                   class="mb-6 font-heading font-bold text-5xl text-gray-900"
                   contenteditable="false"
@@ -104,8 +106,12 @@ export default function ShortServiceDescription() {
                   Hadith of The Day
                 </h2>
                 <p class="mb-9 text-gray-900 text-base">
-                  We handpick hadiths for you and showcase them daily, have a
-                  look for yourself!
+                  We created an application that randomly chooses one of our
+                  favorite handpicked hadiths, including the source and the
+                  narrator, to showcase to you.
+                  <br></br>
+                  <br></br>
+                  Have a look for yourself!
                 </p>
                 <div class="flex flex-wrap -m-2">
                   <div class="w-full lg:w-auto p-2">
@@ -113,7 +119,7 @@ export default function ShortServiceDescription() {
                       onClick={() => {
                         navigate('/hadith');
                       }}
-                      class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md"
+                      class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md service-button"
                     >
                       Hadith of The Day
                     </button>

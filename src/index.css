@@ -80,6 +80,16 @@ code {
   margin-top: 25px;
 }
 
+.father {
+  position: relative;
+}
+
+.service-button {
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 44px;
+}
+
 img {
   pointer-events: none;
 }
