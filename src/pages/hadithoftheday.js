@@ -34,7 +34,7 @@ export default function Hadithoftheday() {
     <>
       <Navbar />
       <section class="relative pb-56 overflow-hidden" id="chapter-text-section">
-        <section class="py-36 overflow-hidden" id="prayertimepage-div">
+        <section class="overflow-hidden" id="prayertimepage-div">
           <div
             class="relative z-10 container mx-auto px-4"
             id="chapter-text-div"

@@ -46,20 +46,20 @@ code {
 }
 
 #error-section {
-  height: 100vh;
+  height: 1010vh;
   padding-top: 0;
   padding-bottom: 0;
 }
 
 #chapter-text-div {
   overflow: auto;
-  height: 90vh;
+  height: 110vh;
   padding-left: 100px;
   padding-right: 100px;
 }
 
 #chapter-text-section {
-  height: 90vh;
+  height: 100vh;
 }
 
 #hadith-image {
