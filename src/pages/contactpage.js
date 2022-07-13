@@ -19,7 +19,12 @@ export default function Contactpage() {
           <div class="group relative md:max-w-max mx-auto">
             <div class="absolute top-0 left-0 w-full h-full bg-gradient-green opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300"></div>
             <button class="p-1 w-full font-heading font-semibold text-xs text-gray-900 group-hover:text-white uppercase overflow-hidden rounded-md">
-              <div class="relative p-5 bg-gradient-green overflow-hidden rounded-md back-home-button">
+              <div
+                class="relative p-5 bg-gradient-green overflow-hidden rounded-md back-home-button"
+                onClick={() => {
+                  navigate('/');
+                }}
+              >
                 <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gray-900 transition ease-in-out duration-500"></div>
                 <div class="relative z-10 flex flex-wrap items-center justify-center -m-1">
                   <div class="w-auto p-1">
@@ -40,13 +45,7 @@ export default function Contactpage() {
                     </svg>
                   </div>
                   <div class="w-auto p-1">
-                    <p
-                      onClick={() => {
-                        navigate('/');
-                      }}
-                    >
-                      Go back to Homepage
-                    </p>
+                    <p>Go back to Homepage</p>
                   </div>
                 </div>
               </div>
