@@ -115,6 +115,9 @@ export default function header() {
                 We help you remember your prayer times, give access to free
                 education on Islam &amp; raise money for our community
                 worldwide.
+                <br></br>
+                <br></br>
+                Always for free.
               </p>
               <div class="flex flex-wrap -m-2.5 mb-20">
                 <div class="w-auto p-2.5">
