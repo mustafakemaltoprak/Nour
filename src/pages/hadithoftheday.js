@@ -53,6 +53,8 @@ export default function Hadithoftheday() {
                 <>
                   <h1 class="font-bold">{hadith.narrator}:</h1>
                   <br></br>
+                  <div>{hadith.arabic}</div>
+                  <br></br>
                   <div>{hadith.text}</div>
                   <br></br>
                   <div>{hadith.reference}</div>
