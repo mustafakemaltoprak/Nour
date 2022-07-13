@@ -17,6 +17,9 @@ export default function navbar() {
                   <a href="prayertime">Prayer Times</a>
                 </li>
                 <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
+                  <a href="/hadith">Hadith of The Day</a>
+                </li>
+                <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
                   <a href="/team">Our Team</a>
                 </li>
               </ul>

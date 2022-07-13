@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../components/header';
-import Prayertimehelp from '../components/prayertimehelp';
+import ShortServiceDescription from '../components/short-service-description';
 
 export default function Homepage() {
   return (
     <>
       <Header />
-      <Prayertimehelp />
+      <ShortServiceDescription />
     </>
   );
 }

@@ -65,6 +65,15 @@ export default function Prayertimepage() {
                         }
                       })}
                     </div>
+                    <button
+                      onClick={() => {
+                        setToggled(!toggled);
+                        setSpinner(false);
+                      }}
+                      class="px-9 py-3.5 font-heading font-medium w-full lg:w-auto text-base text-white bg-blue-600 hover:bg-blue-700 rounded-md"
+                    >
+                      Go back and change your location
+                    </button>
                   </div>
                 </div>
               </div>

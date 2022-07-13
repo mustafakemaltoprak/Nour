@@ -18,6 +18,9 @@ export default function header() {
                     <a href="prayertime">Prayer Times</a>
                   </li>
                   <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
+                    <a href="/hadith">Hadith of The Day</a>
+                  </li>
+                  <li class="font-heading mr-9 text-gray-900 hover:text-gray-700 text-lg">
                     <a href="/team">Our Team</a>
                   </li>
                 </ul>
@@ -66,42 +69,6 @@ export default function header() {
                     </a>
                   </div>
                 </div>
-              </div>
-              <div class="flex flex-col justify-center py-8 w-full">
-                <ul>
-                  <li class="mb-12">
-                    <a
-                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Features
-                    </a>
-                  </li>
-                  <li class="mb-12">
-                    <a
-                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Solutions
-                    </a>
-                  </li>
-                  <li class="mb-12">
-                    <a
-                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Resources
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="font-heading font-medium text-lg text-gray-900 hover:text-gray-700"
-                      href="#"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                </ul>
               </div>
               <div class="flex flex-col justify-end w-full">
                 <div class="flex flex-wrap">

@@ -36,7 +36,7 @@ code {
 }
 
 #textdiv-2 {
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 @media (max-width: 700px) {
@@ -53,6 +53,31 @@ code {
   height: 100vh;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+#chapter-text-div {
+  padding: 0;
+  overflow: auto;
+  height: 95vh;
+}
+
+#hadith-image {
+  height: 250px;
+  margin-bottom: 0px;
+}
+
+#div-that-holds-hadith {
+  background-color: #f1f0f1;
+  padding: 75px;
+  border-radius: 100px;
+}
+
+.helper-tag {
+  cursor: pointer;
+}
+
+.go-back {
+  margin-top: 25px;
 }
 
 img {
