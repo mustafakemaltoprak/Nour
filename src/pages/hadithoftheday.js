@@ -13,7 +13,7 @@ export default function Hadithoftheday() {
 
     async function toUseAwait() {
       let data = await fetch(
-        'https://hadithnourislamapi.herokuapp.com/hadith',
+        'https://nourapi.onrender.com/hadith',
         {
           method: 'GET',
           headers: {
